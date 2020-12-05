@@ -6,6 +6,8 @@ const logger = require('morgan');
 const session = require('express-session')
 const path = require('path');
 const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
+const checkCookieUser = require('./middlewares/checkCookieUser')
+const locals = require('./middlewares/locals')
 
 // ************ express() - (don't touch) ************
 const app = express();
@@ -23,6 +25,8 @@ app.use(session({
 }));
 app.use(cookieParser());
 app.use(methodOverride('_method')); // Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
+app.use(checkCookieUser);
+app.use(locals);
 
 // ************ Template Engine - (don't touch) ************
 app.set('view engine', 'ejs');
