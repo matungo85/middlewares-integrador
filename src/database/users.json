@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "id": 1,
+  "email": "matias.mangano.1985@gmail.com",
+  "password": "$2a$10$xi3G/3mhFiMIRSPZ/sQVfuFNEI5HbKdbGeMrl1Zd4JTBcqdyEN3Jm",
+  "avatar": "avatar-1606273085478.jpg"
+ },
+ {
+  "id": 2,
+  "email": "virginia.sampietro@gmail.com",
+  "password": "$2a$10$LgE1jaRfFSPXjaKkNveS2uPY1HtHy0APXFVWi5qAO3m8rE6xxj1r.",
+  "avatar": "avatar-1606273111407.jpg"
+ },
+ {
+  "id": 3,
+  "email": "pepe@gmail.com",
+  "password": "$2a$10$ykaCJxqCJLud1qRKi5v0M.E.KBi6FW7JKlxBrrngarycqPXIWkqtC",
+  "avatar": "avatar-1607131962676.jpg"
+ }
+]
