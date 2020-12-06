@@ -36,7 +36,7 @@
 			</ul>
 			
 			<ul class="right-navbar">
-				<% if (typeof user == 'undefined') { %>
+				<% if (!user) { %>
 					<li><a href="/user/profile">example@example.com <i class="fas fa-user"></i></a></li>
 					<li><a href="/user/logout">Cerrar sesión <i class="fas fa-sign-in-alt"></i></a></li>
 					<li><a href="/user/register">Registrate <i class="far fa-address-card"></i></a></li>

@@ -51,7 +51,7 @@ module.exports = {
     
             saveUser(user);
             
-            res.redirect('user/login');
+            res.redirect('/user/login');
 
         } else {
             
@@ -70,7 +70,7 @@ module.exports = {
         let errors = validationResult(req);
 
         if (!errors.isEmpty()){
-            console.log(errors.errors)
+         
             return res.render('user/user-login-form', {errors: errors.errors, mail: req.body.email});
 
         } else {
@@ -80,13 +80,13 @@ module.exports = {
             req.session.user = usuarioALoguear;
 
             if (req.body.remember){
-                res.cookie('user', usuarioALoguear.id, { maxAge: 1000 * 60 * 60 });
+                res.cookie('user', usuarioALoguear.id, { maxAge: 60000 * 60 });
             }
     
             return res.redirect('/');
         }
         
-        return res.send('');
+        
     },
     showProfile: (req, res) => {
         return res.render('user/profile');

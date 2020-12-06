@@ -16,5 +16,53 @@
   "email": "pepe@gmail.com",
   "password": "$2a$10$ykaCJxqCJLud1qRKi5v0M.E.KBi6FW7JKlxBrrngarycqPXIWkqtC",
   "avatar": "avatar-1607131962676.jpg"
+ },
+ {
+  "id": 4,
+  "email": "chuck@norris.com",
+  "password": "$2a$10$IvE7yfQ2zaSwSUUXjuxGpue2WUr7m3jlbyIIzar.VgxXGrkHkpxxq",
+  "avatar": "avatar-1607222265833.jpg"
+ },
+ {
+  "id": 5,
+  "email": "prueba@prueba.com",
+  "password": "$2a$10$n7K0yyXtQIvW3bhGge.DW.ExyJXNMziArsXVMIDsxoUakddddrOMi",
+  "avatar": "avatar-1607222464882.png"
+ },
+ {
+  "id": 6,
+  "email": "prueba2@prueba.com",
+  "password": "$2a$10$YXrgfQj9z1LDbBfsmqlDkeD/n.F8L28TrIOmB7efziNt7ONQ8M5kG",
+  "avatar": "avatar-1607222536214.png"
+ },
+ {
+  "id": 7,
+  "email": "prueba3@prueba.com",
+  "password": "$2a$10$ppbplztOBHAYXAt6NSSA6OvcutZWEKe9zrGagVI9E8yzMX7tTT.va",
+  "avatar": "avatar-1607222558601.png"
+ },
+ {
+  "id": 8,
+  "email": "prueba4@prueba.com",
+  "password": "$2a$10$LF9pDqvhdefT78K2cKLIdee7aOkSwB4RlRhtqGPzP5LuUyidDEVmy",
+  "avatar": "avatar-1607222629764.png"
+ },
+ {
+  "id": 9,
+  "email": "chucknorris2@gmail.com",
+  "password": "$2a$10$zQspPTp3E2P5MP.dGK.tseQ5dlNV50QuzkyH8yD4p0tEStcgFSt32",
+  "avatar": "avatar-1607222669256.jpg"
+ },
+ {
+  "id": 10,
+  "email": "prueba10@gmail.com",
+  "password": "$2a$10$qcsJcacmsZkYwYpM3sO.Y.nyu1zl0.kTyNOeRq/vlO.iB5Plgr1cK",
+  "avatar": "avatar-1607223214870.png"
+ },
+ {
+  "id": 11,
+  "email": "prueba11@gmail.com",
+  "password": "$2a$10$rxUkBn8.7QRjIW4.STayAuoqe.2WhbsFUdyEvRFZ7Y3S41gFUKBgq",
+  "avatar": "avatar-1607223243831.png"
  }
 ]
