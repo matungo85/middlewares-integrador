@@ -93,7 +93,13 @@ module.exports = {
     },
     logout: (req, res) => {
 
-        return res.redirect('/');
+        req.session.destroy();
+        
+        if(req.cookies.user){
+            res.cookie('user', null, {maxAge: -1});
+        }
+
+        res.redirect('/');
     }
 
 }
